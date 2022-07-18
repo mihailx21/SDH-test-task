@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/style.css">
+    <title>SD Hub</title>
+</head>
+<body>
+    <div class="main-container d-flex">
+        <!-- aside menu -->
+        <aside>
+            <div>
+                <div class="upper-case main-logo">
+                    <img src="/src/icons/main_logo.svg" alt="Site main logo">
+                </div>
+                <div class="d-flex aside-items">
+                    <div class="aside-icons">
+                        <img src="./src/icons/dashboard-icon.svg" alt="Dashboard icon">
+                    </div>
+                    <div class="aside-text">Dashboard</div>
+                </div>
+                <div class="d-flex aside-items">
+                    <div class="aside-icons">
+                        <img src="./src/icons/tasks-icon.svg" alt="Tasks icon">
+                    </div>
+                    <div class="aside-text">Tasks</div>
+                </div>
+                <div>
+                    <h2 class="upper-case aside-sections-names">Marketing</h2>
+                    <div class="d-flex aside-items">
+                        <div class="aside-icons">
+                            <img src="./src/icons/contacts-icon.svg" alt="Contacts icon">
+                        </div>
+                        <div class="aside-text">Contacts</div>
+                    </div>
+                    <div class="d-flex aside-items">
+                        <div class="aside-icons">
+                            <img src="./src/icons/content-icon.svg" alt="Content icon">
+                        </div>
+                        <div class="aside-text">Content</div>
+                    </div>
+                    <div class="d-flex aside-items">
+                        <div class="aside-icons">
+                            <img src="./src/icons/templates-icon.svg" alt="Templates icon">
+                        </div>
+                        <div class="aside-text">Templates</div>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="upper-case aside-sections-names">Planning</h2>
+                    <div class="d-flex aside-items">
+                        <div class="aside-icons">
+                            <img src="./src/icons/destinations-logo.svg" alt="Destintations logo">
+                        </div>
+                        <div class="aside-text">Destintations</div>
+                    </div>
+                    <div class="d-flex aside-search">
+                        <img src="./src/icons/search-icon.svg" alt="Search icon">
+                        <input class="aside-search-input" type="text" placeholder="Search Supply">
+                    </div>
+                    <div class="d-flex aside-items">
+                        <div class="aside-icons">
+                            <img src="./src/icons/suppliers-icon.svg" alt="Suppliers icon">
+                            <!-- <object  type="image/svg+xml" data="./src/icons/suppliers-icon.svg"></object> -->
+                        </div>
+                        <div class="aside-text">Suppliers</div>
+                    </div>
+                    <div class="d-flex aside-items">
+                        <div class="aside-icons">
+                            <img src="./src/icons/trips-icon.svg" alt="Trips icon">
+                        </div>
+                        <div class="aside-text">Trips</div>
+                    </div>
+                    <div class="d-flex aside-items community">
+                        <div class="d-flex">
+                            <div class="aside-icons">
+                                <img src="./src/icons/commissions-icon.svg" alt="Community icon">
+                            </div>
+                            <div class="aside-text">Community</div>
+                        </div>
+                        <div class="aside-icons">
+                            <img src="./src/icons/go-to-community-icon.svg" alt="Go to Community icon">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="upper-case aside-sections-names">Business</h2>
+                    <div class="d-flex aside-items">
+                        <div class="aside-icons ">
+                            <img src="./src/icons/commissions-icon.svg" alt="Commissions icon">
+                        </div>
+                        <div class="aside-text">Commissions</div>
+                    </div>
+                    <div class="d-flex aside-items">
+                        <div class="aside-icons">
+                            <img src="./src/icons/report-icon.svg" alt="Reports icon">
+                        </div>
+                        <div class="aside-text">Reports</div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="d-flex aside-items">
+                    <div class="aside-icons">
+                        <img src="./src/icons/traning-and-help-icon.svg" alt="Traning and help icon">
+                    </div>
+                    <div class="aside-text">Training & Help</div>
+                </div>
+                <div class="d-flex aside-items">
+                    <div class="aside-icons">
+                        <img src="./src/icons/settings-icon.svg" alt="Settings icon">
+                    </div>
+                    <div class="aside-text">Settings</div>
+                </div>
+            </div>
+        </aside>
+        <!-- main content -->
+        <main>
+            <div class="headers d-flex">
+                <div class="d-flex headers-row">
+                    <div class="d-flex menu-bar">
+                        <div class="d-flex">
+                            <button class="aside-hidden-menu">&#8801;</button>
+                        </div>
+                        <div class="d-flex menu-items choosen-menu-item">
+                            <div class="upper-case headers-text choosen-headers-text">hotels</div>
+                            <div class="headers-numbers">170.802</div>
+                        </div>
+                        <div class="d-flex menu-items">
+                            <div class="upper-case headers-text">cruises</div>
+                            <div class="headers-numbers">57</div>
+                        </div>
+                        <div class="d-flex menu-items">
+                            <div class="upper-case headers-text">tours</div>
+                            <div class="headers-numbers">9</div>
+                        </div>
+                        <div class="d-flex menu-items">
+                            <div class="upper-case headers-text">cars</div>
+                            <div class="headers-numbers">13</div>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="new-supply-button">+ New Supply</button>
+                    </div>
+                </div>
+                
+
+                <div class="d-flex">
+                    <div class="d-flex filter-search ">
+                        <img class="search-icon-table" src="./src/icons/search-icon-table.svg" alt="Search" width="16" height="16">
+                        <input type="text" placeholder="Search items">
+                        <div class="d-flex filter-left-style">
+                            <div class="d-flex filter-icon">
+                                <img src="./src/icons/filter-icon.svg" alt="Filter icon">
+                            </div>
+                            <div>Filters</div>
+                            <div id="modal-window" class="d-flex">
+                                <div>                                
+                                    <input type="checkbox" name="first">
+                                    <label for="first">First</label>
+                                </div>
+                                <div>                                
+                                    <input type="checkbox" name="second">
+                                    <label for="Second">Second</label>
+                                </div>
+                                <div>                                
+                                    <input type="checkbox" name="third">
+                                    <label for="third">Third</label>
+                                </div>
+                                <div>                                
+                                    <input type="checkbox" name="fourth">
+                                    <label for="fourth">Fourth</label>
+                                </div>
+                                <button id="confirm-button">Confirm&Close</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex filter-search filter-right-style">
+                        <div class="search-text left-grey-border">Check In</div>
+                        <div class="search-text left-grey-border">Check Out</div>
+                        <div class="d-flex ">
+                            <div class="search-text">
+                                Guests
+                                <img src="./src/icons/dropdown-icon.svg" alt="Dropdown icon">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <table>
+                    <tr>
+                        <th class="table-ceil-border-top chooser"><input type="checkbox"></th>
+                        <th class="table-row-active table-names table-ceil-border-top">
+                            name
+                            <img class="img-table-sort" src="./src/icons/table-icons/column-sorting-active.svg" alt="sorting icon active">       
+                        </th>
+                        <th class="table-supplier table-ceil-border-top">
+                            supplier
+                            <img class="img-table-sort" src="./src/icons/table-icons/column-sorting.svg" alt="sorting icon">
+                        </th>
+                        <th class="table-location table-ceil-border-top">
+                            location
+                            <img class="img-table-sort" src="./src/icons/table-icons/column-sorting.svg" alt="sorting icon">
+                        </th>
+                        <th class="table-vibe table-ceil-border-top">
+                            vibe
+                            <img class="img-table-sort" src="./src/icons/table-icons/column-sorting.svg" alt="sorting icon">
+                        </th>
+                        <th class="table-perks table-ceil-border-top">
+                            perks
+                            <img class="img-table-sort" src="./src/icons/table-icons/column-sorting.svg" alt="sorting icon">
+                        </th>
+                        <th class="table-from table-ceil-border-top">
+                            from
+                            <img class="img-table-sort" src="./src/icons/table-icons/column-sorting.svg" alt="sorting icon">
+                        </th>
+                        <th class="table-amenities table-ceil-border-top">
+                            amenities
+                        </th>
+                    </tr>
+                    <tr>
+                        <td class="table-ceil-border-top chooser"><input type="checkbox"></td>
+                        <td class="table-name-ceil ceil">Grand Hotel du Palais Royal</td>
+                        <td class="ceil">Fairmont</td>
+                        <td class="ceil">Paris, France</td>
+                        <td class="ceil">Sophisticated</td>
+                        <td class="ceil">
+                            <div class="d-flex perks-ceil">
+                                <div class="green-dot"></div>
+                                <div>Virtuoso</div>
+                            </div>
+                        </td>
+                        <td class="ceil">
+                            <span class="shadow-style-dollar">US$</span>
+                            10.5k
+                        </td>
+                        <td class="ceil">
+                            <img src="./src/icons/table-icons/Path.svg" alt="Path icon" width="16" height="16">
+                            <img src="./src/icons/table-icons/Swim.svg" alt="Pool icon" width="16" height="16">
+                            <img src="./src/icons/table-icons/Pizza.svg" alt="Eating icon" width="16" height="16">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-ceil-border-top chooser"><input type="checkbox"></td>
+                        <td class="table-name-ceil ceil">Rosewood Little Dix Bay</td>
+                        <td class="ceil">Rosewood</td>
+                        <td class="ceil">Virgin Gorda, BVI</td>
+                        <td class="ceil">Comfortable Beach</td>
+                        <td class="ceil">
+                            <div class="d-flex perks-ceil">
+                                <div class="green-dot"></div>
+                                <div>Virtuoso</div>
+                            </div>
+                        </td>
+                        <td class="ceil">
+                            <span class="shadow-style-dollar">US$</span>
+                            12.3k
+                        </td>
+                        <td class="ceil">                            
+                            <img src="./src/icons/table-icons/Path.svg" alt="Path icon" width="16" height="16">
+                            <img src="./src/icons/table-icons/Swim.svg" alt="Pool icon" width="16" height="16">
+                            <img src="./src/icons/table-icons/Pizza.svg" alt="Eating icon" width="16" height="16"></td>
+                    </tr>
+                    <tr>
+                        <td class="table-ceil-border-top chooser"><input type="checkbox"></td>
+                        <td class="table-name-ceil ceil">Vila Planinka</td>
+                        <td class="ceil">Fairmont</td>
+                        <td class="ceil">Paris, France</td>
+                        <td class="ceil">Urban Chic</td>
+                        <td class="ceil">
+                            <div class="d-flex perks-ceil">
+                                <div class="green-dot"></div>
+                                <div>Virtuoso</div>
+                            </div>
+                        </td>
+                        <td class="ceil">
+                            <span class="shadow-style-dollar">US$</span>
+                            9.5k
+                        </td>
+                        <td class="ceil">
+                            <img src="./src/icons/table-icons/Path.svg" alt="Path icon" width="16" height="16">
+                            <img src="./src/icons/table-icons/Swim.svg" alt="Pool icon" width="16" height="16">
+                            <img src="./src/icons/table-icons/Pizza.svg" alt="Eating icon" width="16" height="16">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-ceil-border-top chooser"><input type="checkbox"></td>
+                        <td class="table-name-ceil ceil">Fairmont Olympic Hotel</td>
+                        <td class="ceil">Fairmont</td>
+                        <td class="ceil">Paris, France</td>
+                        <td class="ceil">Business</td>
+                        <td class="ceil">
+                            <div class="d-flex perks-ceil">
+                                <div class="green-dot"></div>
+                                <div>Fairmont Plus</div>
+                            </div>
+                        </td>
+                        <td class="ceil">
+                            <span class="shadow-style-dollar">US$</span>
+                            8.8k
+                        </td>
+                        <td class="ceil">
+                            <img src="./src/icons/table-icons/Path.svg" alt="Path icon" width="16" height="16">
+                            <img src="./src/icons/table-icons/Swim.svg" alt="Pool icon" width="16" height="16">
+                            <img src="./src/icons/table-icons/Pizza.svg" alt="Eating icon" width="16" height="16">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-ceil-border-top chooser"><input type="checkbox"></td>
+                        <td class="table-name-ceil ceil">Palmaia - House of AiA</td>
+                        <td class="ceil">Palmaia</td>
+                        <td class="ceil">Paris, France</td>
+                        <td class="ceil">Party Scene</td>
+                        <td class="ceil">
+                            <div class="d-flex perks-ceil">
+                                <div class="green-dot"></div>
+                                <div>Virtuoso</div>
+                            </div>
+                        </td>
+                        <td class="ceil">
+                            <span class="shadow-style-dollar">US$</span>
+                            8.5k
+                        </td>
+                        <td class="ceil">
+                            <img src="./src/icons/table-icons/Path.svg" alt="Path icon" width="16" height="16">
+                            <img src="./src/icons/table-icons/Swim.svg" alt="Pool icon" width="16" height="16">
+                            <img src="./src/icons/table-icons/Pizza.svg" alt="Eating icon" width="16" height="16">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-ceil-border-top chooser"><input type="checkbox"></td>
+                        <td class="table-name-ceil ceil">InterContinental Amstel</td>
+                        <td class="ceil">InterContinental</td>
+                        <td class="ceil">Amsterdam, Neth...</td>
+                        <td class="ceil">Boutique</td>
+                        <td class="ceil">
+                            <div class="d-flex perks-ceil">
+                                <div class="green-dot"></div>
+                                <div>Virtuoso</div>
+                            </div>
+                        </td>
+                        <td class="ceil">
+                            <span class="shadow-style-dollar">US$</span>
+                            7.2k
+                        </td>
+                        <td class="ceil">
+                            <img src="./src/icons/table-icons/Path.svg" alt="Path icon" width="16" height="16">
+                            <img src="./src/icons/table-icons/Swim.svg" alt="Pool icon" width="16" height="16">
+                            <img src="./src/icons/table-icons/Pizza.svg" alt="Eating icon" width="16" height="16">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-ceil-border-top chooser"><input type="checkbox"></td>
+                        <td class="table-name-ceil ceil">Aman Tokyo</td>
+                        <td class="ceil">Aman</td>
+                        <td class="ceil">Paris, France</td>
+                        <td class="ceil">Quiet Comfort</td>
+                        <td class="ceil">
+                            <div class="d-flex perks-ceil">
+                                <div class="green-dot"></div>
+                                <div>Virtuoso</div>
+                            </div>
+                        </td>
+                        <td class="ceil">
+                            <span class="shadow-style-dollar">US$</span>
+                            11.8k
+                        </td>
+                        <td class="ceil">
+                            <img src="./src/icons/table-icons/Path.svg" alt="Path icon" width="16" height="16">
+                            <img src="./src/icons/table-icons/Swim.svg" alt="Pool icon" width="16" height="16">
+                            <img src="./src/icons/table-icons/Pizza.svg" alt="Eating icon" width="16" height="16">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-ceil-border-top chooser"><input type="checkbox"></td>
+                        <td class="table-name-ceil ceil">Oasy Hotel</td>
+                        <td class="ceil">IHG</td>
+                        <td class="ceil">London, UK</td>
+                        <td class="ceil">Urban Living</td>
+                        <td class="ceil">
+                            <div class="d-flex perks-ceil">
+                                <div class="green-dot"></div>
+                                <div>Virtuoso</div>
+                            </div>
+                        </td>
+                        <td class="ceil">
+                            <span class="shadow-style-dollar">US$</span>
+                            7.4k
+                        </td>
+                        <td class="ceil">
+                            <img src="./src/icons/table-icons/Path.svg" alt="Path icon" width="16" height="16">
+                            <img src="./src/icons/table-icons/Swim.svg" alt="Pool icon" width="16" height="16">
+                            <img src="./src/icons/table-icons/Pizza.svg" alt="Eating icon" width="16" height="16">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-ceil-border-top chooser"><input type="checkbox"></td>
+                        <td class="table-name-ceil ceil">Como Uma Punakha</td>
+                        <td class="ceil">IHG</td>
+                        <td class="ceil">Mumbai, India</td>
+                        <td class="ceil">Hip/Trendy</td>
+                        <td class="ceil">
+                            <div class="d-flex perks-ceil">
+                                <div class="green-dot"></div>
+                                <div>Virtuoso</div>
+                            </div>
+                        </td>
+                        <td class="ceil">
+                            <span class="shadow-style-dollar">US$</span>
+                            6.3k
+                        </td>
+                        <td class="ceil">
+                            <img src="./src/icons/table-icons/Path.svg" alt="Path icon" width="16" height="16">
+                            <img src="./src/icons/table-icons/Swim.svg" alt="Pool icon" width="16" height="16">
+                            <img src="./src/icons/table-icons/Pizza.svg" alt="Eating icon" width="16" height="16">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-ceil-border-top chooser"><input type="checkbox"></td>
+                        <td class="table-name-ceil ceil">Central Private Hotel</td>
+                        <td class="ceil">InterContinental</td>
+                        <td class="ceil">Rotterdam, Nethe...</td>
+                        <td class="ceil">Busy Urban</td>
+                        <td class="ceil">
+                            <div class="d-flex perks-ceil">
+                                <div class="green-dot"></div>
+                                <div>Virtuoso</div>
+                            </div>
+                        </td>
+                        <td class="ceil">
+                            <span class="shadow-style-dollar">US$</span>
+                            6.5k
+                        </td>
+                        <td class="ceil">
+                            <img src="./src/icons/table-icons/Path.svg" alt="Path icon" width="16" height="16">
+                            <img src="./src/icons/table-icons/Swim.svg" alt="Pool icon" width="16" height="16">
+                            <img src="./src/icons/table-icons/Pizza.svg" alt="Eating icon" width="16" height="16">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-ceil-border-top chooser"><input type="checkbox"></td>
+                        <td class="table-name-ceil ceil">Capella Bangkok</td>
+                        <td class="ceil">InterContinental</td>
+                        <td class="ceil">Bangkok, Thailan...</td>
+                        <td class="ceil">Party Scene</td>
+                        <td class="ceil">
+                            <div class="d-flex perks-ceil">
+                                <div class="green-dot"></div>
+                                <div>Virtuoso</div>
+                            </div>
+                        </td>
+                        <td class="ceil">
+                            <span class="shadow-style-dollar">US$</span>
+                            4.7k
+                        </td>
+                        <td class="ceil">
+                            <img src="./src/icons/table-icons/Path.svg" alt="Path icon" width="16" height="16">
+                            <img src="./src/icons/table-icons/Swim.svg" alt="Pool icon" width="16" height="16">
+                            <img src="./src/icons/table-icons/Pizza.svg" alt="Eating icon" width="16" height="16">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-ceil-border-top chooser"><input type="checkbox"></td>
+                        <td class="table-name-ceil ceil">The Londoner</td>
+                        <td class="ceil">Fairmont</td>
+                        <td class="ceil">Bangkok, Thailan...</td>
+                        <td class="ceil">Busy Urban</td>
+                        <td class="ceil">
+                            <div class="d-flex perks-ceil">
+                                <div class="green-dot"></div>
+                                <div>Virtuoso</div>
+                            </div>
+                        </td>
+                        <td class="ceil">
+                            <span class="shadow-style-dollar">US$</span>
+                            4.8k
+                        </td>
+                        <td class="ceil">
+                            <img src="./src/icons/table-icons/Path.svg" alt="Path icon" width="16" height="16">
+                            <img src="./src/icons/table-icons/Swim.svg" alt="Pool icon" width="16" height="16">
+                            <img src="./src/icons/table-icons/Pizza.svg" alt="Eating icon" width="16" height="16">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-ceil-border-top chooser"><input type="checkbox"></td>
+                        <td class="table-name-ceil ceil">St. Regis Hong Kong</td>
+                        <td class="ceil">Marriott</td>
+                        <td class="ceil">Hong Kong</td>
+                        <td class="ceil">Party Scene</td>
+                        <td class="ceil">
+                            <div class="d-flex perks-ceil">
+                                <div class="green-dot"></div>
+                                <div>Virtuoso</div>
+                            </div>
+                        </td>
+                        <td class="ceil">
+                            <span class="shadow-style-dollar">US$</span>
+                            4.1k
+                        </td>
+                        <td class="ceil">
+                            <img src="./src/icons/table-icons/Path.svg" alt="Path icon" width="16" height="16">
+                            <img src="./src/icons/table-icons/Swim.svg" alt="Pool icon" width="16" height="16">
+                            <img src="./src/icons/table-icons/Pizza.svg" alt="Eating icon" width="16" height="16">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-ceil-border-top chooser"><input type="checkbox"></td>
+                        <td class="table-name-ceil ceil">Ritz-Carlton, Turks & Caicos</td>
+                        <td class="ceil">Ritz-Carlton</td>
+                        <td class="ceil">Turks & Caicos</td>
+                        <td class="ceil">Party Scene</td>
+                        <td class="ceil">
+                            <div class="d-flex perks-ceil">
+                                <div class="green-dot"></div>
+                                <div>Multiple</div>
+                            </div>
+                        </td>
+                        <td class="ceil">
+                            <span class="shadow-style-dollar">US$</span>
+                            9.3k
+                        </td>
+                        <td class="ceil">
+                            <img src="./src/icons/table-icons/Path.svg" alt="Path icon" width="16" height="16">
+                            <img src="./src/icons/table-icons/Swim.svg" alt="Pool icon" width="16" height="16">
+                            <img src="./src/icons/table-icons/Pizza.svg" alt="Eating icon" width="16" height="16">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-ceil-border-top chooser"><input type="checkbox"></td>
+                        <td class="table-name-ceil ceil">Ritz-Carlton, Aruba</td>
+                        <td class="ceil">Ritz-Carlton</td>
+                        <td class="ceil">Aruba</td>
+                        <td class="ceil">Party Beach</td>
+                        <td class="ceil">
+                            <div class="d-flex perks-ceil">
+                                <div class="green-dot"></div>
+                                <div>Multiple</div>
+                            </div>
+                        </td>
+                        <td class="ceil">
+                            <span class="shadow-style-dollar">US$</span>
+                            8.5k
+                        </td>
+                        <td class="ceil">
+                            <img src="./src/icons/table-icons/Path.svg" alt="Path icon" width="16" height="16">
+                            <img src="./src/icons/table-icons/Swim.svg" alt="Pool icon" width="16" height="16">
+                            <img src="./src/icons/table-icons/Pizza.svg" alt="Eating icon" width="16" height="16">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-ceil-border-top chooser"><input type="checkbox"></td>
+                        <td class="table-name-ceil ceil">The Bedford</td>
+                        <td class="ceil">IHG</td>
+                        <td class="ceil">Coppenhagen</td>
+                        <td class="ceil">Quiet Luxury</td>
+                        <td class="ceil">
+                            <div class="d-flex perks-ceil">
+                                <div class="green-dot"></div>
+                                <div>Virtuoso</div>
+                            </div>
+                        </td>
+                        <td class="ceil">
+                            <span class="shadow-style-dollar">US$</span>
+                            5.1k
+                        </td>
+                        <td class="ceil">
+                            <img src="./src/icons/table-icons/Path.svg" alt="Path icon" width="16" height="16">
+                            <img src="./src/icons/table-icons/Swim.svg" alt="Pool icon" width="16" height="16">
+                            <img src="./src/icons/table-icons/Pizza.svg" alt="Eating icon" width="16" height="16">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-ceil-border-top chooser"><input class="table-ceil-shadow" type="checkbox"></td>
+                        <td class="table-name-ceil ceil">Fairmont London</td>
+                        <td class="ceil">Fairmont</td>
+                        <td class="ceil">London, UK</td>
+                        <td class="ceil">Busy Urban</td>
+                        <td class="ceil">
+                            <div class="d-flex perks-ceil table-ceil-shadow">
+                                <div class="green-dot"></div>
+                                <div>Virtuoso</div>
+                            </div>
+                        </td>
+                        <td class="ceil">
+                            <span class="shadow-style-dollar">US$</span>
+                            6.5k
+                        </td>
+                        <td class="ceil">
+                            <img src="./src/icons/table-icons/Path.svg" alt="Path icon" width="16" height="16">
+                            <img src="./src/icons/table-icons/Swim.svg" alt="Pool icon" width="16" height="16">
+                            <img src="./src/icons/table-icons/Pizza.svg" alt="Eating icon" width="16" height="16">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="d-flex paging">
+                <div class="legend-text">Showing<span> 1 </span>to<span> 20 </span>of 170,802 results</div>
+                <div class="d-flex left-part-legend">
+                    <div class="d-flex">
+                        <div class="legend-text d-flex">
+                            Rows per page: 20
+                            <img src="./src/icons/dropdown-icon.svg" alt="Dropdown">
+                        </div>
+                    </div>
+                    <button class="pages-button">Previous</button>
+                    <button class="pages-button">Next</button>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="./src/index.js"></script>
+</body>
+</html>
